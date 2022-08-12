@@ -1,0 +1,46 @@
+2022-08-10 19:50:22 INFO  Log:11 - =====================================End To End Test TEST START=========================================
+2022-08-10 19:50:23 INFO  Log:22 - 
+2022-08-10 19:50:23 INFO  Log:22 - User going search product
+2022-08-10 19:50:35 INFO  Log:22 - User click On Product
+2022-08-10 19:50:36 INFO  Log:22 - User Provid quantity
+2022-08-10 19:50:36 INFO  Log:22 - User Provid Size
+2022-08-10 19:50:36 INFO  Log:22 - User Going On Order Page 
+2022-08-10 19:50:42 INFO  Log:22 - User Click On Add To Cart Page Button
+2022-08-10 19:50:48 INFO  Log:22 - User Going On Order Page 
+2022-08-10 19:50:59 INFO  Log:22 - User Click On Check Out Button
+2022-08-10 19:50:59 INFO  Log:22 - User Provid Login Details
+2022-08-10 19:51:09 INFO  Log:22 - Login Succesfull
+2022-08-10 19:51:14 INFO  Log:22 - User Going On Shipping Page
+2022-08-10 19:51:17 INFO  Log:22 - Click On Term And Condition Box
+2022-08-10 19:51:22 INFO  Log:22 - Click On Proceed To Cj=hekc Out Button
+2022-08-10 19:51:24 INFO  Log:22 - Click On Click on Payment
+2022-08-10 19:51:33 INFO  Log:22 - User Click on Confirm Ordr Button & On Order confirmation PAge
+2022-08-10 19:51:34 INFO  Log:15 - =====================================Test Case Pass TEST END=========================================
+2022-08-10 19:57:12 INFO  Log:11 - =====================================Index Test1 Start TEST START=========================================
+2022-08-10 19:57:12 INFO  Log:22 - 
+2022-08-10 19:57:12 INFO  Log:22 - Validate Logo
+2022-08-10 19:57:12 INFO  Log:11 - =====================================Index Test1 End TEST START=========================================
+2022-08-10 19:57:25 INFO  Log:11 - =====================================Index Test2 Start TEST START=========================================
+2022-08-10 19:57:25 INFO  Log:22 - Vefiy Title
+2022-08-10 19:57:25 INFO  Log:11 - =====================================Index Test2 End TEST START=========================================
+2022-08-10 20:22:55 INFO  Log:11 - =====================================Index Test1 Start TEST START=========================================
+2022-08-10 20:22:55 INFO  Log:22 - Validate Logo
+2022-08-10 20:22:55 INFO  Log:11 - =====================================Index Test1 End TEST START=========================================
+2022-08-10 20:23:18 INFO  Log:11 - =====================================Index Test2 Start TEST START=========================================
+2022-08-10 20:23:18 INFO  Log:22 - Vefiy Title
+2022-08-10 20:23:18 INFO  Log:11 - =====================================Index Test2 End TEST START=========================================
+2022-08-11 09:08:52 INFO  Log:11 - =====================================Index Test1 Start TEST START=========================================
+2022-08-11 09:08:54 INFO  Log:22 - Validate Logo
+2022-08-11 09:08:54 INFO  Log:11 - =====================================Index Test1 End TEST START=========================================
+2022-08-11 09:09:18 INFO  Log:11 - =====================================Index Test2 Start TEST START=========================================
+2022-08-11 09:09:18 INFO  Log:22 - Vefiy Title
+2022-08-11 09:09:18 INFO  Log:11 - =====================================Index Test2 End TEST START=========================================
+2022-08-11 09:09:35 INFO  Log:11 - =====================================Index Test1 Start TEST START=========================================
+2022-08-11 09:09:36 INFO  Log:22 - Validate Logo
+2022-08-11 09:09:36 INFO  Log:11 - =====================================Index Test1 End TEST START=========================================
+2022-08-11 09:09:57 INFO  Log:11 - =====================================Index Test2 Start TEST START=========================================
+2022-08-11 09:09:57 INFO  Log:22 - Vefiy Title
+2022-08-11 09:09:57 INFO  Log:11 - =====================================Index Test2 End TEST START=========================================
+2022-08-12 13:06:34 INFO  Log:11 - =====================================Index Test1 Start TEST START=========================================
+2022-08-12 13:06:38 INFO  Log:22 - Validate Logo
+2022-08-12 13:06:38 INFO  Log:11 - =====================================Index Test1 End TEST START=========================================
