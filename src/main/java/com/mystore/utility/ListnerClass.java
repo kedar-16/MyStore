@@ -14,7 +14,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.mystore.base.BaseClass;
 
-public class ListnerClass extends ExtentReport  implements ITestListener
+public class ListnerClass extends ExtentManager  implements ITestListener
 {
 
 

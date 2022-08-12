@@ -41,7 +41,7 @@ public class IndexPageTest extends BaseClass
 
 	}
 	
-	@Test (enabled = true,groups = "sanity")
+	@Test (enabled = false,groups = "sanity")
 	public void verifyTitle()
 	{
 		Log.startTestCase("Index Test2 Start");

@@ -13,10 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
-
-import com.aventstack.extentreports.ExtentReports;
-
+import com.mystore.utility.ExtentManager;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -28,7 +25,7 @@ public class BaseClass
 	@BeforeSuite (groups = {"Regression","sanity"})
 	public void readConfig()
 	{
-		com.mystore.utility.ExtentReport.setExtent();
+		ExtentManager.setExtent();
 		DOMConfigurator.configure("log4j.xml");
 		try 
 		{
@@ -80,7 +77,7 @@ public class BaseClass
 	@AfterSuite(groups = {"sanity","Regression"})
 	public void AfterSuite()
 	{
-		com.mystore.utility.ExtentReport.endReport();
+		ExtentManager.endReport();
 	}
 	
 }
