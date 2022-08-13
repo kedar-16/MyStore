@@ -16,7 +16,7 @@
           <include name="setup"/>
           <include name="readConfig"/>
           <include name="tearDown"/>
-          <include name="verifyTitle"/>
+          <include name="verifyLogo"/>
           <include name="AfterSuite"/>
         </methods>
       </class> <!-- com.mystore.test.IndexPageTest -->

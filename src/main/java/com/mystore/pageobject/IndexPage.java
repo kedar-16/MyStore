@@ -19,7 +19,7 @@ public class IndexPage extends BaseClass {
 	@FindBy(name ="submit_search")
 	WebElement btnsearch;
 	
-	@FindBy(xpath = "//img[@class='logo img-responsive']")
+	@FindBy(xpath = "//img[@clas='logo img-responsive']")
 	WebElement logo;
 	
 	public IndexPage()

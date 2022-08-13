@@ -49,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Aug 12, 2022 08:29:05 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Aug 13, 2022 10:53:01 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -64,7 +64,7 @@
 				<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -107,10 +107,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -128,17 +128,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyLogo</span>
-						<span class='test-time'>Aug 12, 2022 08:29:44 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Aug 13, 2022 10:53:29 AM</span>
+						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 12, 2022 08:29:44 PM</span>
-	<span class='label end-time'>Aug 12, 2022 08:29:45 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+630ms</span>
+	<span class='label start-time'>Aug 13, 2022 10:53:29 AM</span>
+	<span class='label end-time'>Aug 13, 2022 10:53:42 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+628ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -150,12 +150,36 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr class='log' status='pass'>
-				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>8:29:45 PM</td>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>10:53:41 AM</td>
 				<td class='step-details'>
-						Pass Test case is: verifyLogo
+						<span class='badge white-text red'>verifyLogo - Test Case Failed</span>
 					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>10:53:41 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@clas='logo img-responsive']"}
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KEDAR', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\KEDARP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bcb7b809c91e880be8717de1edca0265
+*** Element info: {Using=xpath, value=//img[@clas='logo img-responsive']} - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>10:53:42 AM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyLogo_20220813105341.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyLogo_20220813105341.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyLogo_20220813105341.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -203,19 +227,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 12, 2022 08:29:05 PM</div>
+					<div class='panel-lead'>Aug 13, 2022 10:53:01 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 12, 2022 08:29:47 PM</div>
+			 		<div class='panel-lead'>Aug 13, 2022 10:53:43 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 41s+858ms</div>
+					<div class='panel-lead'>0h 0m 41s+440ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -259,13 +283,13 @@
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 1,
-				failParent: 0,
+				passParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -290,7 +314,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "verifyLogo":0.63
+			        "verifyLogo":12.628
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

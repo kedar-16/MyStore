@@ -44,13 +44,12 @@ public class ListnerClass extends ExtentManager  implements ITestListener
 					MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
 			test.log(Status.FAIL,
 					MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
-				
-			//ScreenShot.TakeScreshot(BaseClass.driver, result.getName());
+			String imgpath = ScreenShot.TakeScreshot(BaseClass.driver, result.getName());
 			
 			
 			
-	//		test.fail("ScreenShot is Attached", MediaEntityBuilder.createScreenCaptureFromPath(imgPath).build());
-//			
+			test.fail("ScreenShot is Attached", MediaEntityBuilder.createScreenCaptureFromPath(imgpath).build());
+			
 		}
 		catch (Exception e) {
 			// TODO Auto-generated catch block
