@@ -47,11 +47,12 @@ public class ListnerClass extends ExtentManager  implements ITestListener
 			String imgpath = ScreenShot.TakeScreshot(BaseClass.driver, result.getName());
 			
 			
-			
+			//screenshot is attached to extent report
 			test.fail("ScreenShot is Attached", MediaEntityBuilder.createScreenCaptureFromPath(imgpath).build());
 			
 		}
-		catch (Exception e) {
+		catch (Exception e) 
+		{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
